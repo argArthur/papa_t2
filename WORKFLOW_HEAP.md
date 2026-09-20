@@ -300,22 +300,22 @@ unzip -l Trabalho_Heap_$RA.zip
 ## Checklist incremental (marcar `[x]` somente após `REVISÃO [ID]: OK`; F0.1 é o único item sem revisão — manter desmarcado até releitura final)
 
 ```text
-[ ] F0.1 Li enunciado integral + 6 arquivos modelo e anotei contratos rígidos
+[x] F0.1 Li enunciado integral + 6 arquivos modelo e anotei contratos rígidos
 [x] F0.2 .venv criado (Python >=3.11) e versions_env.txt/versions_pip.txt gerados
-[ ] F1.1 Pesquisa heaps (binário/binomial/Fibonacci + handles) registrada
-[ ] F1.2 BinaryHeap implementado (push/decrease_key/pop_min/len + erros)
-[ ] F1.2 BinomialHeap implementado (idem)
-[ ] F1.2 FibonacciHeap implementado (idem, sem heapq — grep limpo)
-[ ] F1.3 tests/test_heaps_contract.py verde nas 3 classes
-[ ] F2.1 Pesquisa Dijkstra (decrease_key vs lazy + casos-limite) registrada
-[ ] F2.2 dijkstra() único e genérico, só interface pública, validações OK
-[ ] F2.3 tests/test_dijkstra.py verde (manual + desconexo + negativo + diferencial aleatório)
-[ ] F3.1 Tabela assintótica canônica revisada (pior caso vs amortizado)
-[ ] F3.2 respostas.json válido, 12 campos só com categorias permitidas
-[ ] F4.1 Desenho experimental definido (3 famílias x 4 tamanhos, pareado, warmup, medir mediana+MAD)
-[ ] F4.2 benchmark.py completo e executado no .venv (tabela com unidades+dispersão)
-[ ] F4.3 relatorio.md ≤1200 palavras com os 5 itens obrigatórios
-[ ] F5.1 autores.json válido (1-3 autores, RA string, sem duplicata)
-[ ] F5.2 Auditoria final OK (assinaturas, sem heapq, JSONs válidos, testes verdes, wc -w)
-[ ] F5.3 Trabalho_Heap_RA.zip com exatamente os 6 arquivos na raiz (unzip -l)
+[x] F1.1 Pesquisa heaps (binário/binomial/Fibonacci + handles) registrada
+[x] F1.2 BinaryHeap implementado (push/decrease_key/pop_min/len + erros)
+[x] F1.2 BinomialHeap implementado (idem)
+[x] F1.2 FibonacciHeap implementado (idem, sem heapq — grep limpo)
+[x] F1.3 tests/test_heaps_contract.py verde nas 3 classes
+[x] F2.1 Pesquisa Dijkstra (decrease_key vs lazy + casos-limite) registrada
+[x] F2.2 dijkstra() único e genérico, só interface pública, validações OK
+[x] F2.3 tests/test_dijkstra.py verde (manual + desconexo + negativo + diferencial aleatório)
+[x] F3.1 Tabela assintótica canônica revisada (pior caso vs amortizado)
+[x] F3.2 respostas.json válido, 12 campos só com categorias permitidas
+[x] F4.1 Desenho experimental definido (3 famílias x 4 tamanhos, pareado, warmup, medir mediana+MAD)
+[x] F4.2 benchmark.py completo e executado no .venv (tabela com unidades+dispersão)
+[x] F4.3 relatorio.md ≤1200 palavras com os 5 itens obrigatórios
+[x] F5.1 autores.json válido (1-3 autores, RA string, sem duplicata)
+[x] F5.2 Auditoria final OK (assinaturas, sem heapq, JSONs válidos, testes verdes, wc -w)
+[x] F5.3 Trabalho_Heap_RA.zip com exatamente os 6 arquivos na raiz (unzip -l)
 ```
