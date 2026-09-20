@@ -1,0 +1,21 @@
+{
+  "categorias_permitidas": ["1", "log_n", "n", "m_mais_n_log_n", "m_mais_n_vezes_log_n"],
+  "heap_binario": {
+    "inserir": "log_n",
+    "diminuir_chave": "log_n",
+    "extrair_minimo": "log_n",
+    "dijkstra": "m_mais_n_vezes_log_n"
+  },
+  "heap_binomial": {
+    "inserir": "log_n",
+    "diminuir_chave": "log_n",
+    "extrair_minimo": "log_n",
+    "dijkstra": "m_mais_n_vezes_log_n"
+  },
+  "heap_fibonacci": {
+    "inserir": "1",
+    "diminuir_chave": "1",
+    "extrair_minimo": "log_n",
+    "dijkstra": "m_mais_n_log_n"
+  }
+}
